@@ -1,0 +1,19 @@
+diff --git a/patch b/patch
+new file mode 100644
+index 0000000..9a78d1c
+--- /dev/null
++++ b/patch
+@@ -0,0 +1,13 @@
++diff --git a/src/Test.java b/src/Test.java
++index 73b44bf..c2031b2 100644
++--- a/src/Test.java
+++++ b/src/Test.java
++@@ -15,7 +15,7 @@
++ 		
++ 		int sum=0;
++ 		int i=1;
++-		while(i<=1000){
+++		while(i<=2000){
++ 			sum=sum+i;
++ 			i++;
++ 		}
