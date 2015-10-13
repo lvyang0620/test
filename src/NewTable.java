@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class NewTable{
 	public static void main(String[] args){
 		Scanner in=new Scanner(System.in);
-		System.out.print("请输入整数-->");
+		System.out.print("请输入一个整数-->");
 		int num=in.nextInt();
 		for(int i=1;i<=num;i++){
 			for(int j=1;j<=i;j++){
